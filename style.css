@@ -1,0 +1,534 @@
+* {
+    margin: 0px;
+    border: border-box;
+    font: arial;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+/* BOX-2 */
+
+.add-first {
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+/* BOX-3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+
+
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+}
+
+.search-amazon {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+
+}
+
+.search-icon:hover {
+    cursor: pointer;
+    background-color: #efa039;
+}
+
+.search-select:hover {
+    cursor: pointer;
+    background-color: #e2dcdc;
+}
+
+/* BOX 5 and 6 */
+
+span {
+    font-size: 0.8rem;
+
+}
+
+.account {
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* BOX 7*/
+
+
+.nav-cart i {
+    font-size: 30px;
+
+
+
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+
+
+}
+
+/* next bottom parts */
+.panel {
+    height: 39px;
+    background-color: #222e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.second-panel p {
+    display: inline;
+    font-size: 0.rem;
+    margin-left: 15px;
+    font-weight: 700;
+
+
+}
+
+.second-panel {
+    width: 96%;
+}
+
+.first-panel {
+    height: 12px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+/* home page/hero section */
+
+.hero-section {
+    background-image: url("hero.JPEG\ Image.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.hero-section:hover {
+    cursor: pointer;
+}
+
+/* shopping-section */
+.shopping-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 215, 175);
+
+}
+
+.box {
+    /* border:2px solid black; */
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+
+.box-img1 {
+    background-image: url("toy.JPEG\ Image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img1:hover {
+    cursor: pointer;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2 {
+    margin-bottom: 10px;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.box-content p:hover {
+    cursor: pointer;
+    color: #d38c2f;
+}
+
+.box-img2 {
+    background-image: url("beauty.JPEG\ Image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.box-img2:hover {
+    cursor: pointer;
+}
+
+.box-img3 {
+    background-image: url("wow.JPEG\ image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img3 {
+    cursor: pointer;
+}
+
+.box-img4 {
+    background-image: url("fitness.JPEG\ Image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img4 {
+    cursor: pointer;
+}
+
+/* next boxes */
+.box-img5 {
+    background-image: url("fashion.JPEG\ Image_.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img5:hover {
+    cursor: pointer;
+}
+
+.box-img6 {
+    background-image: url("health.JPEG\ Image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.box-img6:hover {
+    cursor: pointer;
+}
+
+.box-img7 {
+    background-image: url("kitchen.JPEG\ Image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img7 {
+    cursor: pointer;
+}
+
+.box-img8 {
+    background-image: url("cutipie.JPEG\ Image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img8 {
+    cursor: pointer;
+}
+
+/* again next 4 boxes */
+.box-img9 {
+    background-image: url("music.JPEG\ image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img9:hover {
+    cursor: pointer;
+}
+
+.box-img10 {
+    background-image: url("lap.JPEG\ Image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.box-img10:hover {
+    cursor: pointer;
+}
+
+.box-img11 {
+    background-image: url("watch.JPEG\ image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img11 {
+    cursor: pointer;
+}
+
+.box-img12 {
+    background-image: url("tools.JPEG\ image.jpg");
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-img12 {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.panel1 {
+    background-color: #394a58;
+    color: white;
+    height: 50px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.panel1:hover {
+    cursor: pointer;
+    background-color: rgb(90, 103, 116);
+
+}
+
+.panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    margin-top: 35px;
+}
+
+ul a {
+    display: block;
+    font-size: -0.12rem;
+    margin-top: 10px;
+    color: #f9f1f1dd;
+}
+
+ul a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ul p {
+    color: #f3f3f3;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 6px 0 14px 0;
+
+}
+
+.radhe {
+    width: 137px;
+}
+
+.radhe:hover {
+    cursor: pointer;
+}
+
+.shyam {
+    width: 166px;
+}
+
+.shyam:hover {
+    cursor: pointer;
+}
+
+.balram {
+    width: 210px;
+}
+
+.balram:hover {
+    cursor: pointer;
+}
+
+.sitaram {
+    width: 223px;
+}
+
+.sitaram:hover {
+    cursor: pointer;
+}
+
+/* third panel */
+.panel3 {
+    background-color: #222f3d;
+    height: 70px;
+    border-top: 0.65px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+
+/* fourth foot panel */
+.foot-panel4 {
+    height: 400px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+
+}
+
+.foot-panel4 p {
+    font-size: 12px;
+
+}
+
+.foot-panel4 p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.foot-panel4 a {
+    font-size: 12px;
+
+}
+
+.a a {
+    padding: 0px;
+    margin: 0px;
+
+}
+/* fifth panel */
+
+.panel5 {
+    background-color: #0f1111;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+
+.pages {
+    padding-top: 12px;
+}
+
+.copyright {
+    padding-top: 7px;
+}
+
+.canto1 {
+    padding: 4px;
+}
